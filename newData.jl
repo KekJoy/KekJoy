@@ -41,13 +41,12 @@ end
 m, n = 5, 5
 A = zeros(m,n)
 for i in 1:m 
-    for j in 1:n # Либо писать в строчку for in 1:n, for j in 1:n
+    for j in 1:n # Либо  for in 1:n, for j in 1:n
         A[i, j] = i + j
     end
 end
 
 
-A # Я ЖИВОЙ
 C = [i+j for i in 1:m, j in 1:n]
 
 # Ex6
@@ -91,12 +90,11 @@ f = x -> x^2
 sayhi("GG WP")
 f(9)
 
-#Я не знаю как это обозвать
-v = [3, 5, 2]
-sort(v) #Построчная сортировка
-v
 
-#Обратное тому что выше
+v = [3, 5, 2]
+sort(v)
+v
+#Наоборот
 sort!(v)
 v
 
