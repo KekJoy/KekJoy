@@ -19,18 +19,6 @@ function stepgame!(state::GameOfLife)
             if g == -1 && i == -1 || g == -1 && i == m || g == m && i == -1|| g == n && i == n
                 d += cr[mod1(i,n), mod1(g,m)]
             end
-            if i == n 
-                d += cr[i-(n-1), g]
-            end
-            if g == m 
-                d += cr[i, g - (m-1)]
-            end
-            if i == 1
-                d += cr[i+(n-1), g]
-            end
-            if g == 1 
-                d += cr[i, g+(m-1)]
-            end
             if i < n # Сосед снизу 
                 d += cr[i+1, g]
             end
