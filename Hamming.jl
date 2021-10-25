@@ -17,8 +17,3 @@ function Hamming(firstDNA, secondDNA)
         return "DNAs have $counter differences"
     end
 end
-
-
-
-    
-    
