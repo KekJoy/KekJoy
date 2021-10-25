@@ -1,4 +1,4 @@
-global squareOfTheSum = 0
+global square_of_the_sum = 0
 global sumOfTheSquare = 0
 maxNumber = parse(Int, readline())
 for i = 1:maxNumber
