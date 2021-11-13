@@ -83,7 +83,7 @@ function  update_boids(array_boids)
 end
 
 function rule_one(boid, array_boids)
-
+    
 end
 
 function show_boids(array_boids)
